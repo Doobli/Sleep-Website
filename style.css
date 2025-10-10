@@ -2,11 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: arial;
-  
+  font-family: 'poppins', sans-serif;
 }
 .over{
   height: 100px;
+}
+
+
+button:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 
 .navBar {
@@ -14,12 +19,15 @@
   justify-content: space-between;
   height: 50px;
   width: 95%;
-  border: 1px solid;
+  border: 1px solid white;
   border-radius: 30px;
   align-items: center;
   position: sticky;
   top:30px;
   margin: auto;
+  background-color: white;
+  z-index: 100;
+  
 }
 
 
@@ -34,15 +42,19 @@
 .nav-list-one li {
   display: inline-block;
   padding: 0% 20px;
+  
 }
 
 .nav-list-one li a {
   transition: all 0.3s ease 0s;
+  color: darkorchid;
+  text-decoration: none;
 }
 
 
 .nav-list-one li a:hover {
   color: darkorchid;
+  color: black;
 }
 
 .nav-list-logo{
@@ -824,3 +836,6 @@
   border-radius: 20px;
   margin-top: 8px;
 }
+
+
+
