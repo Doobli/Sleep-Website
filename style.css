@@ -871,3 +871,95 @@ footer{
 hr {
   color: gray;
 }
+
+
+/* Newsletter */
+
+.news-letter {
+  display: flex;
+}
+
+
+.news-letter-email{
+  width: 400px;
+}
+
+.news-letter-email h2{
+  font-family: 'poppins', sans-serif;
+  font-size: 32px;
+  margin: 20px 0;
+}
+
+.news-letter-email p{
+  color: gray;
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.news-letter-email input {
+  width: 280px;
+  height: 40px;
+  background-color: rgba(151, 150, 150, 0.121);
+  border: 0;
+  border-radius: 10px;
+  padding-left: 15px;
+}
+
+.news-letter-email button {
+  height: 40px;
+  width: 90px;
+  border-radius: 50px;
+  border: 1px black solid;
+  background-color: black;
+  color: white;
+}
+
+
+.news-letter-support {
+  margin-top: 30px;
+  margin-left: 120px;
+}
+
+
+
+.news-letter-support p {
+  color: gray;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.news-letter-support li {
+  list-style: none;
+  margin-bottom: 15px;
+  
+}
+
+.pattern-text {
+    font-size: 250px;
+    font-weight: 900;
+    text-transform: uppercase;
+    background: url(./assets/art.jpg); /* replace with your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    letter-spacing: 20px;
+  }
+
+
+.ending {
+  color: gray;
+  margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
