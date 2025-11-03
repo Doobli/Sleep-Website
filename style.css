@@ -837,5 +837,37 @@ button:hover {
   margin-top: 8px;
 }
 
+/* Footer */
 
+footer{
+  padding: 0 80px;
+}
 
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.social-media li {
+  display: inline-block;
+  padding-right: 25px;
+}
+
+.social-media img{
+  list-style: none;
+  height: 40px
+}
+
+.langu-eng {
+  width: 150px;
+  height: 40px;
+}
+
+.langu-eng img {
+  height: 30px;
+}
+
+hr {
+  color: gray;
+}
