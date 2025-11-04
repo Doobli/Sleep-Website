@@ -31,6 +31,12 @@ button:hover {
 }
 
 
+.menu-icon {
+  display: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
 .nav-logo{
   height: 25px;
 }
@@ -63,6 +69,12 @@ button:hover {
   align-items: center;
   gap: 5px;
 }
+
+.nav-list-logo:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
 
 .vav-li, .langu-eng{
   display: flex;
@@ -164,6 +176,11 @@ button:hover {
   border-radius: 30px;
 }
 
+.opening-page-bed:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
 .opening-page-bed img {
   height: 280px;
   padding: 10px 0 0 50px;
@@ -190,6 +207,11 @@ button:hover {
   width: 350px;
   height: 400px;
   border-radius: 30px;
+}
+
+.opening-page-glass:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 
 .opening-page-glass img {
@@ -219,6 +241,11 @@ button:hover {
   width: 350px;
   height: 400px;
   border-radius: 30px;
+}
+
+.opening-page-clock:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 
 .opening-page-clock img {
@@ -464,6 +491,11 @@ button:hover {
   justify-content: center;
 }
 
+.opening-page-four-two-img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
 .opening-page-four-two-img img {
   width: 500px;
 }
@@ -519,6 +551,11 @@ button:hover {
   text-align: center;
 }
 
+.opening-page-five-one:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
 .opening-page-five-one img {
   margin-top: 25px;
   width: 200px;
@@ -541,6 +578,11 @@ button:hover {
   border-radius: 50%;
   background-color: rgba(250, 235, 215, 0.455);
   text-align: center;
+}
+
+.opening-page-five-two:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 
 .opening-page-five-two img {
@@ -567,6 +609,11 @@ button:hover {
   border-radius: 50%;
   background-color: rgba(250, 235, 215, 0.455);
   text-align: center;
+}
+
+.opening-page-five-three:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 
 .opening-page-five-three img {
@@ -776,6 +823,11 @@ button:hover {
   height: 400px;
 }
 
+.opening-page-seven-one-img-even:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
 /* pening page seven one img box */
 
 
@@ -788,7 +840,6 @@ button:hover {
   position: relative;
   left: 1050px;
   bottom: 200px;
-
 }
 
 .opening-page-seven-one-img-box-left {
@@ -954,3 +1005,13 @@ hr {
 }
 
 
+/* Responsive Design */
+
+/* Moblie */
+
+@media (max-width: 600px) {
+  .nav-list-one,
+  .vav-li{
+    display: none;
+  }
+}
